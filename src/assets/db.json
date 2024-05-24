@@ -1,0 +1,56 @@
+[
+    {
+        "brand": "Fiat",
+        "brandLogo": "https://upload.wikimedia.org/wikipedia/it/thumb/9/9e/Logo_della_Fiat.svg/800px-Logo_della_Fiat.svg.png",
+        "model": "500L",
+        "modelImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwsWBuXJgqgSn_nk3zDCH45nfIsqKPpI3A-KlzpVgDoA&s",
+        "year": 2015,
+        "price": 7500,
+        "available": false
+    },
+    {
+        "brand": "Fiat",
+        "brandLogo": "https://upload.wikimedia.org/wikipedia/it/thumb/9/9e/Logo_della_Fiat.svg/800px-Logo_della_Fiat.svg.png",
+        "model": "500 Abarth",
+        "modelImage": "https://cdn.motor1.com/images/mgl/qz9Xz/s3/abarth-595-elettrica-il-rendering.jpg",
+        "year": 2010,
+        "price": 3500,
+        "available": true
+    },
+    {
+        "brand": "Ford",
+        "brandLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU8DoZ5diYOQIodKRX7Ia4ifvBXGZnr23nUbcmCvzoTw&s",
+        "model": "Taurus",
+        "modelImage": "https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/images/12q2/450434/2013-ford-taurus-sel-awd-instrumented-test-review-car-and-driver-photo-461441-s-original.jpg?crop=1.00xw:1.00xh;0,0&resize=640:*",
+        "year": 2009,
+        "price": 5200,
+        "available": false
+    },
+    {
+        "brand": "Ford",
+        "brandLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU8DoZ5diYOQIodKRX7Ia4ifvBXGZnr23nUbcmCvzoTw&s",
+        "model": "Focus",
+        "modelImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZNtZR3KQiZoa8WCsVscLzai5YnIV0f2VHkxQZtWG0yg&s",
+        "year": 2014,
+        "price": 9700,
+        "available": true
+    },
+    {
+        "brand": "Audi",
+        "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Audi_logo_detail.svg/1426px-Audi_logo_detail.svg.png",
+        "model": "A3",
+        "modelImage": "https://uploads.audi-mediacenter.com/system/production/media/90567/images/72391bd2d21a80a761f0df1bd5bff197d5804daa/A201895_web_2880.jpg?1698421086",
+        "year": 2012,
+        "price": 4300,
+        "available": true
+    },
+    {
+        "brand": "Audi",
+        "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Audi_logo_detail.svg/1426px-Audi_logo_detail.svg.png",
+        "model": "Q7",
+        "modelImage": "https://media.ed.edmunds-media.com/audi/q7/2022/oem/2022_audi_q7_4dr-suv_prestige_fq_oem_1_600.jpg",
+        "year": 2020,
+        "price": 41700,
+        "available": false
+    }
+]

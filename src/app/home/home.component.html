@@ -1,0 +1,30 @@
+<div class="container-fluid">
+  <div class="row">
+    <!-- Sidebar -->
+    <div id="marchi" class="col-md-3  text-light py-4">
+      <h1 class="text-center">i nostri marchi</h1>
+      <ul class="list-unstyled d-flex justify-content-center flex-wrap">
+        <li *ngFor="let brand of brands" class="mr-3 mb-3 d-flex align-items-center">
+          <a [routerLink]="['/brand', brand]" class="brand-link">
+            <img [src]="getBrandLogo(brand)" class="brand-logo" alt="{{ brand }}">
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-9">
+      <h2 class="mb-4">Auto casuali</h2>
+      <div class="row">
+        <div class="col-md-6" *ngFor="let car of randomCars">
+          <div class="card mb-4" [ngClass]="getBackgroundColor(car.available)">
+            <img [src]="car.modelImage" class="card-img-top" alt="{{ car.model }}">
+            <div class="card-body">
+              <h5 class="card-title">{{ car.model }}</h5>
+              <p class="card-text">{{ car.brand }}</p>
+              <a [routerLink]="['/brand', car.brand]" class="btn btn-primary btn-sm btn-go-to-brand">Vai al brand</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

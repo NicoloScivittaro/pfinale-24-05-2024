@@ -1,0 +1,47 @@
+.container {
+  margin-top: 50px;
+
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .card {
+    border: 2px solid transparent; // Aggiungi un bordo trasparente per impostare uno spazio per il bordo
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s; // Aggiungi la transizione anche per il cambio del colore del bordo
+
+    &:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+      border-color: #007bff; // Cambia il colore del bordo quando passi sopra la carta
+    }
+
+    &.available {
+      border-left: 5px solid #28a745;
+    }
+
+    &.unavailable {
+      border-left: 5px solid #dc3545;
+    }
+
+    .card-img-top {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .card-body {
+      text-align: center;
+
+      .card-title {
+        font-size: 1.25rem;
+        margin-bottom: 10px;
+      }
+
+      .card-text {
+        font-size: 1rem;
+        color: #6c757d;
+      }
+    }
+  }
+}
